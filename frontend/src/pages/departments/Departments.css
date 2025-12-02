@@ -1,0 +1,119 @@
+.departments {
+    width: 80%;
+    padding: 2rem;
+}
+
+.departments .title {
+    text-align: center;
+}
+
+.departments-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.departments-top input {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(228, 227, 227);
+    border: 1px solid rgb(122, 122, 122);
+}
+
+.departments-top button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+}
+
+.add-departments {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.add-container {
+    margin-top: 20px;
+    background-color: rgb(228, 227, 227);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 7px rgb(92, 92, 92);
+    width: 20rem;
+}
+
+.add-container h3 {
+    text-align: center;
+    color: #1d3557;
+}
+
+.add-container p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.add-container input,
+.add-container textarea {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+.add-container button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.departments-details{
+    margin-top: 30px;
+}
+
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.departments-details .title{
+    border: 1px solid #0f766e;
+    color: #1d3557;
+}
+
+.departments-details p{
+    text-align: center;
+}
+
+.dep-action{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dep-action button{
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.dep-edit{
+    background-color: #0f766e;
+}
+.dep-delete{
+    background-color: #cd2424;
+}

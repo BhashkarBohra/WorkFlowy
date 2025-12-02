@@ -1,0 +1,250 @@
+.leave-History {
+    width: 80%;
+    padding: 2rem;
+}
+
+.leave-History .title {
+    text-align: center;
+}
+
+.leave-history-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.leave-history-top input {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(228, 227, 227);
+    border: 1px solid rgb(20, 17, 17);
+}
+
+.leave-history-top button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+}
+
+.leave-details {
+    margin-top: 30px;
+}
+
+.leave-list-table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.leave-details .title {
+    border: 1px solid #0f766e;
+    color: #1d3557;
+}
+
+.leave-details p {
+    text-align: center;
+}
+
+.add-leave {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.add-leave-container {
+    margin-top: 20px;
+    background-color: rgb(228, 227, 227);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 7px rgb(92, 92, 92);
+    width: 60rem;
+}
+
+.add-leave-container h3 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.add-leave-container p {
+    margin-bottom: 5px;
+}
+
+.add-leave-container h3 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.add-leave-container p {
+    margin-bottom: 5px;
+}
+
+
+
+.edit-salary-dep p {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.add-leave-container input,
+.add-leave-container select,
+.add-leave-container textarea {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+
+.leave-form-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.leave-form-container .leave-dates {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.add-leave-container button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.leave-manage-list-table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.leave-details .title {
+    border: 1px solid #0f766e;
+    color: #1d3557;
+}
+
+.leave-details p {
+    text-align: center;
+}
+
+.view-leave-detail {
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #0f766e;
+}
+
+.leave-filter {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.leave-filter button:focus {
+    background-color: #08514b;
+}
+
+.view-leave-container {
+    max-width: 60rem;
+    margin-top: 40px;
+    margin-bottom: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(228, 227, 227);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 7px rgb(92, 92, 92);
+}
+
+.view-leave-container h3 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 2rem;
+}
+
+.view-leave-content {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.view-leave-container img {
+    width: 18rem;
+    border-radius: 50px;
+}
+
+.view-leave-data pre {
+    margin-bottom: 20px;
+}
+
+.view-leave-data .action {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.view-leave-data .action button {
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.view-leave-data .accept {
+    background-color: #1fad4a;
+}
+
+.view-leave-data .reject {
+    background-color: #cd2424;
+}
+
+@media (min-width: 768px) {
+    .leave-list-table {
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .leave-manage-list-table {
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr 1fr 0.5fr;
+        
+    }
+
+    .leave-form-container .leave-dates {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .leave-filter {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .view-leave-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

@@ -1,0 +1,210 @@
+.employeesManagement {
+    width: 80%;
+    padding: 2rem;
+}
+
+.employeesManagement .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employees-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.employees-top input {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(228, 227, 227);
+    border: 1px solid rgb(20, 17, 17);
+}
+
+.employees-top button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+}
+
+.add-employees {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.add-emp-container {
+    margin-top: 20px;
+    background-color: rgb(228, 227, 227);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 7px rgb(92, 92, 92);
+    width: 60rem;
+}
+
+.add-emp-container h3 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.add-emp-container p {
+    margin-bottom: 5px;
+}
+.edit-emp-dep p{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.add-emp-container input,
+.add-emp-container textarea,
+.add-emp-container select {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+.emp-form-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.add-emp-container button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.employees-details {
+    margin-top: 30px;
+}
+
+.emp-list-table {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.employees-details .title {
+    border: 1px solid #0f766e;
+    color: #1d3557;
+}
+
+.employees-details p {
+    text-align: center;
+}
+
+.emp-list-table .image {
+    display: flex;
+    justify-content: center;
+}
+
+.emp-list-table img {
+    width: 50px;
+
+}
+
+.emp-action {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.emp-action button {
+    padding: 0.1rem 0.25rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.emp-view {
+    background-color: #0f766e;
+}
+
+.emp-edit {
+    background-color: #1fad4a;
+}
+
+.emp-salary {
+    background-color: #cf9800;
+}
+
+.dep-leave {
+    background-color: #cd2424;
+}
+
+.view-emp-container {
+    max-width: 60rem;
+    margin-top: 40px;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(228, 227, 227);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 7px rgb(92, 92, 92);
+}
+
+.view-emp-container h3 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 2rem;
+}
+
+.view-emp-content {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.view-emp-container img {
+    width: 18rem;
+    border-radius: 50px;
+}
+
+.view-emp-data pre {
+    margin-bottom: 20px;
+}
+
+.edit-emp{
+    align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+    .emp-form-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .view-emp-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .emp-list-table {
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 2fr;
+    }
+    .emp-action button {
+        padding: 0.5rem 1rem;
+    }
+}
+@media (min-width: 1280px) {
+    .view-emp-container img {
+        width: 24rem;
+    }
+}

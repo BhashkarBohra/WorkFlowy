@@ -1,0 +1,123 @@
+.add-salary {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+.add-salary-container{
+    margin-top: 20px;
+    background-color: rgb(228, 227, 227);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 7px rgb(92, 92, 92);
+    width: 60rem;
+}
+
+.add-salary-container h3 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.add-salary-container p {
+    margin-bottom: 5px;
+}
+.edit-salary-dep p{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.add-salary-container input,
+.add-salary-container select {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+
+.salary-form-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.add-salary-container button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.salary-History {
+    width: 80%;
+    padding: 2rem;
+}
+
+.salary-History .title {
+    text-align: center;
+}
+
+.salary-history-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.salary-history-top input {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(228, 227, 227);
+    border: 1px solid rgb(20, 17, 17);
+}
+
+.salary-details {
+    margin-top: 30px;
+}
+
+.salary-list-table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+.emp-salary-list-table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.salary-details .title {
+    border: 1px solid #0f766e;
+    color: #1d3557;
+}
+
+.salary-details p {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .salary-form-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .salary-list-table {
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    .emp-salary-list-table {
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+}

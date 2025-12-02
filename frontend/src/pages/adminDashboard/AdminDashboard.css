@@ -1,0 +1,78 @@
+.admin-dash {
+    width: 80%;
+    padding: 2rem;
+}
+
+.admin-dash-boxes {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.admin-dash-Second-boxes {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.admin-dash-container {
+    border-radius: 0.25rem;
+    display: flex;
+    background-color: rgb(228, 227, 227);
+}
+
+
+.admin-dash-icon {
+    font-size: 1.875rem;
+    padding: 1rem;
+    background-color: #1d3557;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.admin-dash-content {
+    font-size: 1.125rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.admin-dash-content p {
+    font-weight: 600;
+}
+.admin-dash-content h3 {
+    color: rgb(62, 62, 62);
+}
+
+.h1-center{
+    text-align: center;
+}
+
+.RBG {
+    background-color: #AB0866;
+}
+
+.YBG {
+    background-color: #ff8533;
+}
+
+.GBG {
+    background-color: #0f766e;
+}
+
+@media (min-width: 768px) {
+    .admin-dash-boxes {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .admin-dash-Second-boxes {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+}

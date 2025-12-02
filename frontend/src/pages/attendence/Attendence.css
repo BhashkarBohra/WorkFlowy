@@ -1,0 +1,153 @@
+.attendence {
+    width: 80%;
+    padding: 2rem;
+}
+
+.attendence .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attendence .title2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #1d3557;
+}
+
+.attendence-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.attendence-top input {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(228, 227, 227);
+    border: 1px solid rgb(20, 17, 17);
+}
+
+.attendence-top button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #0f766e;
+    border-radius: 3px;
+    border: none;
+}
+
+.attendence-details {
+    margin-top: 30px;
+}
+
+.attendence-table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.attendence-details .title {
+    border: 1px solid #0f766e;
+    color: #1d3557;
+}
+
+.attendence-details p {
+    text-align: center;
+}
+
+.attendence-table .image {
+    display: flex;
+    justify-content: center;
+}
+
+.attendence-table img {
+    width: 50px;
+
+}
+
+.attendence-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.attendence-action button {
+    padding: 0.1rem 0.25rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.attend-sick {
+    background-color: #4a4a4a;
+}
+
+.attend-present {
+    background-color: #1fad4a;
+}
+
+.attend-leave {
+    background-color: #cf9800;
+}
+
+.attend-absent {
+    background-color: #cd2424;
+}
+
+
+.attendence-report {
+    width: 80%;
+    padding: 2rem;
+}
+
+.attendence-report .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attendence-report .section {
+    margin-top: 40px;
+}
+
+.attendence-report .section .date {
+    text-align: right;
+    color: #1d3557;
+}
+
+.attendence-top .search-date {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #0f766e;
+}
+
+.show-more {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .attendence-table {
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 2fr;
+    }
+
+    .attendence-action button {
+        padding: 0.5rem 1rem;
+    }
+
+    .attendence-action {
+        flex-direction: row;
+    }
+}
