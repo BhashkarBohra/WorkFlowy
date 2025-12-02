@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
-    const backend_url = "http://localhost:3000"
+    const backend_url = "https://workflowy-backend.onrender.com"
     const [token, setToken] = useState(localStorage.getItem('adminToken') ? localStorage.getItem('adminToken') : '');
     const [userRole, setUserRole] = useState('');
     const [showLoader, setShowLoader] = useState(true)
