@@ -58,6 +58,8 @@
     }
     .header-contents button {
         padding: 0.5vw 1vw;
-        margin-left: 20px;
+    }
+    .header-contents .login-continue{
+        gap: 20px;
     }
 }
