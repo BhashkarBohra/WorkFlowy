@@ -53,4 +53,10 @@
     .header-contents p{
         display: none;
     }
+    .header-contents h2 {
+        font-size: 18px;
+    }
+    .header-contents button {
+        padding: 0.5vw 1vw;
+    }
 }
