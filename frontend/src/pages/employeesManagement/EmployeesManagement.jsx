@@ -19,7 +19,7 @@ const EmployeesManagement = () => {
             </div>
             <div className="employees-top">
                 <input type="text" onChange={filterEmployees} placeholder='Search Emp By Name' />
-                <Link to="/admin/add-employees" ><button>Add new Department</button></Link>
+                <Link to="/admin/add-employees" ><button>Add new Employee</button></Link>
             </div>
 
             <div className="employees-details">
