@@ -6,7 +6,7 @@ const userRouter = express.Router()
 
 userRouter.post('/Employee', userLogin);
 userRouter.post('/Admin',adminLogin);
-userRouter.get('/get',getUserName);
+userRouter.get('/get',adminAuth,getUserName);
 userRouter.post('/setting', adminAuth,changePassword);
 
 export default userRouter;
